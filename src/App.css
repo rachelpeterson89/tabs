@@ -1,6 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 * {
   background:black;
   color:whitesmoke;
   font-family: "Lobster", serif;
+}
+
+.zoom:hover{
+  transform: scale(1.1);
+  transition: all ease 800ms;
+  background:rgb(22, 37, 37);
 }
